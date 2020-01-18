@@ -23,10 +23,10 @@ The motivation behind this project was to create a simple as possible android ap
 ~~~
 @Override  
 protected Void doInBackground(Void... voids) {  
-	// Get the JSON from the URL  
-	JSONObject jsonCurrencies = JSONParser.getJSONFromUrl(URL);  
+    // Get the JSON from the URL  
+    JSONObject jsonCurrencies = JSONParser.getJSONFromUrl(URL);  
   
-	// If we get something, then we will fill our currency with the received data  
+    // If we get something, then we will fill our currency with the received data  
     if (jsonCurrencies != null) {  
         try {  
             // Get the value of the currency with JSON by the currency key  
@@ -35,11 +35,12 @@ protected Void doInBackground(Void... voids) {
             // Get the date  
             date = jsonCurrencies.getString("date");  
             // Setting the currencies  
-		    currency.setCurrencyEUR(CurrencyEUR);  
-		    currency.setCurrencyUSD(CurrencyUSD);  
-	    } catch (JSONException e) {  
+            currency.setCurrencyEUR(CurrencyEUR);  
+            currency.setCurrencyUSD(CurrencyUSD);  
+	 } 
+         catch (JSONException e) {  
             Log.e(PrefetchDataCurrency.class.getName(), "Not valid JSON data.");  
-	    }  
+	 }  
     }  
     return null;  
 }
