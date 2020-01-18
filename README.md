@@ -1,7 +1,7 @@
 ## Exchange-Rates
 
 This is an **Android application** that shows the exchange rates of the **Dollar** and the **Euro** against the **Israeli Shekel**.
-The application uses the JSON API of exchangeratesapi.io and the [OkHttp](https://square.github.io/okhttp/) library for sending and receive HTTP-based network requests.
+The application uses the JSON API of [exchangeratesapi.io](http://exchangeratesapi.io/) and the [OkHttp](https://square.github.io/okhttp/) library for sending and receive HTTP-based network requests.
 
 ## Motivation
 
@@ -49,19 +49,19 @@ protected Void doInBackground(Void... voids) {
 
  **Running on android mobile**
  
- <a href="app/release/ExchangeRates.apk" download>Click here to download the apk file</a>
+ [Click here to download the apk file](app/release/ExchangeRates.apk)
  
 **Running in development environment**
 
 [Android SDK](https://developer.android.com/studio/intro/update) , [Android Studio](https://developer.android.com/studio) should be installed before moving on.
 	
- - git clone https://github.com/dimakol/Exchange_Rate.git
+ - git clone https://github.com/dimakol/Exchange-Rates.git
  - open the project that currently cloned with some IDE like [Android Studio](https://developer.android.com/studio/install) or [IntelliJ IDEA](https://www.jetbrains.com/idea/)
  - run 'app'
  
 ## API Reference
 
-- exchangeratesapi.io - Foreign exchange rates API
+- [exchangeratesapi.io](http://exchangeratesapi.io/) - Foreign exchange rates API
 
 ## Credits
 
