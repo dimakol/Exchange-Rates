@@ -49,7 +49,7 @@ protected Void doInBackground(Void... voids) {
 
  **Running on android mobile**
  
- [Click here to download the apk file](app/release/ExchangeRates.apk)
+ <a id="raw-url" href="https://raw.githubusercontent.com/dimakol/Exchange-Rates/master/app/release/ExchangeRates.apk">Click here to download the apk file</a>
  
 **Running in development environment**
 
