@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exchange Rates</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="st_title">Currencies</string>
+    <string name="st_eur_to_ils">€ -> ₪:</string>
+    <string name="st_usd_to_ils">$ -> ₪:</string>
+    <string name="st_date">Date:</string>
+    <string name="signature">Dima Kolyas ©</string>
+</resources>
