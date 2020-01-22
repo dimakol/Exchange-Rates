@@ -1,6 +1,6 @@
-## Exchange-Rates
+## Exchange-Rates :money_with_wings:
 
-This is an **Android application** that shows the exchange rates of the **Dollar** and the **Euro** against the **Israeli Shekel**.
+This is an **Android application** that shows the exchange rates of the **Dollar** :dollar: and the **Euro** :euro: against the **Israeli Shekel**.
 The application uses the JSON API of [exchangeratesapi.io](http://exchangeratesapi.io/) and the [OkHttp](https://square.github.io/okhttp/) library for sending and receive HTTP-based network requests.
 
 ## Motivation
